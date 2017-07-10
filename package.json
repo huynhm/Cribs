@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "http-server",
+    "serve": "http-server ./public",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
@@ -28,6 +29,7 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
+    "http-server": "^0.8.5",
     "@angular/cli": "1.2.0",
     "@angular/compiler-cli": "^4.0.0",
     "@angular/language-service": "^4.0.0",
