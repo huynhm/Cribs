@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "criblistings",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
