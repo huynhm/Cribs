@@ -14,7 +14,7 @@ export class ListingComponent implements OnInit {
 
 	cribs: Array<any>;
 	error: string;
-  sortField: string = 'price';
+  sortField: string = 'area';
   sortDirection: string = 'asc';
   sortFields: Array<string> = ['price', 'area', 'bedrooms', 'bathrooms', 'type'];
 
